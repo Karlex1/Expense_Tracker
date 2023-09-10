@@ -48,7 +48,7 @@
   "scripts": {
     "client": "cd client && npm run start",
     "server": "node server.js",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
